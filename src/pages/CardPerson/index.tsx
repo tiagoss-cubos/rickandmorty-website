@@ -7,7 +7,7 @@ import "./styles.css";
 
 const CardPerson = () => {
   const history = useNavigate();
-  const { id }: { id: string } = useParams();
+  const { id }: { id: string; } = useParams();
   const { data, loading, error } = useQuery<UserCard>(GET_CHARACTER, {
     variables: { id },
   });
