@@ -1,0 +1,13 @@
+.container__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  background-color: #242222;
+}
+
+.container__card {
+  color: #ffffff;
+}

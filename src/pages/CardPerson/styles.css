@@ -1,0 +1,26 @@
+.container__person {
+  height: 100%;
+}
+
+.container__card__person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  min-height: 100%;
+  padding: 2rem;
+  background-color: #555551;
+}
+
+.container__card__info {
+  background: #fff;
+  max-width: 21rem;
+  max-height: 29rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 20px #383837;
+}
+
+.container__card__person__button {
+  margin-bottom: 2rem;
+}
